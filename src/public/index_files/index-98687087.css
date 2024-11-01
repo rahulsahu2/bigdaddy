@@ -1,5 +1,5 @@
 .van-toast[data-v-23d378a6] {
-    word-break: break-word!important
+    word-break: break-word !important
 }
 
 .cg-default.van-button[data-v-23d378a6] {
@@ -36,7 +36,8 @@
     padding: 0 .02667rem
 }
 
-.register__container-invitation__label[data-v-23d378a6],.register__container-invitation__input[data-v-23d378a6] {
+.register__container-invitation__label[data-v-23d378a6],
+.register__container-invitation__input[data-v-23d378a6] {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -47,7 +48,7 @@
 
 .register__container-invitation__label[data-v-23d378a6] {
     margin-bottom: .32rem;
-    color: #292929;
+    color: #000;
     font-size: .4rem
 }
 
@@ -61,8 +62,8 @@
     width: 99%;
     height: 1.17333rem;
     padding: .36rem .34667rem;
-    background: #f0f0f5;
-    color: #292929;
+    background: #ffffff;
+    color: #000;
     font-size: .37333rem;
     border: none;
     border-radius: .26667rem;
@@ -86,7 +87,7 @@
 }
 
 .register__container-remember[data-v-23d378a6] .van-checkbox .van-icon-success {
-    color: #fff
+    color: #000
 }
 
 .register__container-remember[data-v-23d378a6] .van-checkbox .van-checkbox__label {
@@ -95,7 +96,7 @@
 }
 
 .register__container-remember[data-v-23d378a6] .van-checkbox .van-checkbox__label span {
-    color: #d9ac4f;
+    color: #ff867a;
     font-size: .32rem
 }
 
@@ -111,19 +112,20 @@
     -webkit-align-items: center;
     align-items: center;
     width: 100%;
-    margin-block:.84rem 1.33333rem}
+    margin-block: .84rem 1.33333rem
+}
 
 .register__container-button button[data-v-23d378a6] {
     width: 7.73333rem;
     height: 1.06667rem;
-    color: #8f5206;
+    color: #ffffff;
     font-size: .48rem;
     font-weight: 700;
     letter-spacing: .05333rem;
     border-radius: 1.06667rem;
     border: none;
-    background: -webkit-linear-gradient(top,#FAE59F 0%,#C4933F 100%);
-    background: linear-gradient(180deg,#FAE59F 0%,#C4933F 100%);
+    background: -webkit-linear-gradient(top, #FAE59F 0%, #ff867a 100%);
+    background: linear-gradient(90deg, #ff867a 0%, #ffc3a2 100%);
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -135,20 +137,14 @@
     justify-content: center
 }
 
-.register__container-button button:active[data-v-23d378a6] {
-    background: -webkit-linear-gradient(top,#D9B38C 0%,#B1835A 100%);
-    background: linear-gradient(180deg,#D9B38C 0%,#B1835A 100%);
-    color: #fff;
-}
-
 .register__container-button button.disable-btn[data-v-23d378a6] {
-    background: -webkit-linear-gradient(top,#cfd1df 0%,#c8cada 100%);
-    background: linear-gradient(180deg,#cfd1df 0%,#c8cada 100%);
+    background: -webkit-linear-gradient(top, #cfd1df 0%, #c8cada 100%);
+    background: linear-gradient(180deg, #cfd1df 0%, #c8cada 100%);
     box-shadow: 0 .05333rem #b6bad0
 }
 
 .register__container-button .login[data-v-23d378a6] {
-    border: .01333rem solid #C4933F;
+    border: .01333rem solid #ff867a;
     text-shadow: none;
     background: transparent;
     box-shadow: none;
@@ -163,14 +159,14 @@
 
 .register__container-button .loginin[data-v-23d378a6] {
     font-size: .4rem;
-    color: #c4933f;
+    color: #ff867a;
     font-weight: 700;
     margin-left: .22667rem
 }
 
 .register__container-button span[data-v-23d378a6] {
     margin-top: .32rem;
-    color: #c4933f;
+    color: #ff867a;
     font-size: .32rem
 }
 
@@ -178,14 +174,14 @@
     margin-top: -.26667rem;
     margin-bottom: .16rem;
     padding-left: .22667rem;
-    color: #d9ac4f;
+    color: #ff867a;
     font-size: .32rem
 }
 
 .register__container-tip[data-v-23d378a6] {
     margin-top: .32rem;
     padding-left: .22667rem;
-    color: #d9ac4f;
+    color: #ff867a;
     font-size: .32rem;
     display: -webkit-box;
     display: -webkit-flex;
@@ -206,11 +202,11 @@
 }
 
 .red[data-v-23d378a6] {
-    color: #c4933f!important
+    color: #ff867a !important
 }
 
 .van-toast[data-v-7e428c43] {
-    word-break: break-word!important
+    word-break: break-word !important
 }
 
 .cg-default.van-button[data-v-7e428c43] {
@@ -242,7 +238,8 @@
     padding: 0 .02667rem
 }
 
-.register__container-invitation__label[data-v-7e428c43],.register__container-invitation__input[data-v-7e428c43] {
+.register__container-invitation__label[data-v-7e428c43],
+.register__container-invitation__input[data-v-7e428c43] {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -253,7 +250,7 @@
 
 .register__container-invitation__label[data-v-7e428c43] {
     margin-bottom: .32rem;
-    color: #fff;
+    color: #000;
     font-size: .4rem
 }
 
@@ -267,8 +264,8 @@
     width: 99%;
     height: 1.17333rem;
     padding: .36rem .34667rem;
-    background: #484848;
-    color: #fff;
+    background: #ffffff;
+    color: #000;
     font-size: .37333rem;
     border: none;
     border-radius: .26667rem;
@@ -297,7 +294,7 @@
 }
 
 .register__container-remember[data-v-7e428c43] .van-checkbox .van-checkbox__label span {
-    color: #d9ac4f;
+    color: #ff867a;
     font-size: .32rem
 }
 
@@ -313,19 +310,20 @@
     -webkit-align-items: center;
     align-items: center;
     width: 100%;
-    margin-block:.84rem 1.33333rem}
+    margin-block: .84rem 1.33333rem
+}
 
 .register__container-button button[data-v-7e428c43] {
     width: 7.73333rem;
     height: 1.06667rem;
-    color: #8f5206;
+    color: #ffffff;
     font-size: .48rem;
     font-weight: 700;
     letter-spacing: .05333rem;
     border-radius: 1.06667rem;
     border: none;
-    background: -webkit-linear-gradient(top,#FAE59F 0%,#C4933F 100%);
-    background: linear-gradient(180deg,#FAE59F 0%,#C4933F 100%);
+    background: -webkit-linear-gradient(top, #FAE59F 0%, #ff867a 100%);
+    background: linear-gradient(90deg, #ff867a 0%, #ffc3a2 100%);
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -338,13 +336,13 @@
 }
 
 .register__container-button button.disable-btn[data-v-7e428c43] {
-    background: -webkit-linear-gradient(top,#cfd1df 0%,#c8cada 100%);
-    background: linear-gradient(180deg,#cfd1df 0%,#c8cada 100%);
+    background: -webkit-linear-gradient(top, #cfd1df 0%, #c8cada 100%);
+    background: linear-gradient(180deg, #cfd1df 0%, #c8cada 100%);
     box-shadow: 0 .05333rem #b6bad0
 }
 
 .register__container-button .login[data-v-7e428c43] {
-    border: .01333rem solid #C4933F;
+    border: .01333rem solid #ff867a;
     text-shadow: none;
     background: transparent;
     box-shadow: none;
@@ -359,14 +357,14 @@
 
 .register__container-button .loginin[data-v-7e428c43] {
     font-size: .4rem;
-    color: #c4933f;
+    color: #ff867a;
     font-weight: 700;
     margin-left: .22667rem
 }
 
 .register__container-button span[data-v-7e428c43] {
     margin-top: .32rem;
-    color: #c4933f;
+    color: #ff867a;
     font-size: .32rem
 }
 
@@ -374,14 +372,14 @@
     margin-top: -.26667rem;
     margin-bottom: .16rem;
     padding-left: .22667rem;
-    color: #d9ac4f;
+    color: #ff867a;
     font-size: .32rem
 }
 
 .register__container-tip[data-v-7e428c43] {
     margin-top: .32rem;
     padding-left: .22667rem;
-    color: #c4933f;
+    color: #ff867a;
     font-size: .32rem;
     display: -webkit-box;
     display: -webkit-flex;
@@ -402,11 +400,11 @@
 }
 
 .red[data-v-7e428c43] {
-    color: #c4933f!important
+    color: #ff867a !important
 }
 
 .van-toast[data-v-7e82aefe] {
-    word-break: break-word!important
+    word-break: break-word !important
 }
 
 .cg-default.van-button[data-v-7e82aefe] {
@@ -437,7 +435,7 @@
     -webkit-align-items: center;
     align-items: center;
     font-size: .4rem;
-    color: #fff
+    color: #000
 }
 
 .right img[data-v-7e82aefe] {
@@ -464,12 +462,13 @@
 }
 
 .resgister__C[data-v-7e82aefe] .navbar-fixed {
-    background: -webkit-linear-gradient(left,#B1835A 0%,#D9B38C 100%)!important;
-    background: linear-gradient(90deg,#B1835A 0%,#D9B38C 100%)!important
+    background: -webkit-linear-gradient(left, #6F7381 0%, #A9AAB5 100%) !important;
+    background: linear-gradient(90deg, #ff867a 0%, #ffc3a2 100%) !important
 }
 
-.resgister__C[data-v-7e82aefe] .navbar-fixed .navbar__content .navbar__content-center,.resgister__C[data-v-7e82aefe] .navbar-fixed .navbar__content .navbar__content-left .van-icon {
-    color: #fff!important
+.resgister__C[data-v-7e82aefe] .navbar-fixed .navbar__content .navbar__content-center,
+.resgister__C[data-v-7e82aefe] .navbar-fixed .navbar__content .navbar__content-left .van-icon {
+    color: #000 !important
 }
 
 .resgister__C .login_container-tab[data-v-7e82aefe] {
@@ -518,14 +517,18 @@
 }
 
 .resgister__C .login_container-tab .active[data-v-7e82aefe] {
-    border-bottom: .05333rem solid #D9AC4F
+    border-bottom: .05333rem solid #ff867a
 }
 
 .resgister__C .login_container-tab .active .font30[data-v-7e82aefe] {
-    color: #d9ac4f
+    color: #ff867a
 }
 
-.resgister__C .login_container-tab .basicimg[data-v-7e82aefe],.resgister__C .login_container-tab .phoneactive[data-v-7e82aefe],.resgister__C .login_container-tab .emailactive[data-v-7e82aefe],.resgister__C .login_container-tab .emialbg[data-v-7e82aefe],.resgister__C .login_container-tab .phonebg[data-v-7e82aefe] {
+.resgister__C .login_container-tab .basicimg[data-v-7e82aefe],
+.resgister__C .login_container-tab .phoneactive[data-v-7e82aefe],
+.resgister__C .login_container-tab .emailactive[data-v-7e82aefe],
+.resgister__C .login_container-tab .emialbg[data-v-7e82aefe],
+.resgister__C .login_container-tab .phonebg[data-v-7e82aefe] {
     width: .64rem;
     height: .64rem;
     background-position: center;
@@ -546,13 +549,13 @@
 }
 
 .resgister__C .login_container-tab .phoneactive[data-v-7e82aefe] {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHzSURBVHgB7ZpNTsJAGIbfr5kEl3oC8Qa6UnQh3gCjJO6kJ0BPoJ5AOUF1Z6Im9QS4ApfcQDyBsNKEn89pMUq00zLJ0JFkng1N56Pt0+m0ybxDyKAdHJZBOJObZeQIAR1mapT8u+uMOjXPN9U6M1/BIsw43fbvldegFGgHR0XQqCkPUcTsJ3skiJO0GqLRJYMr0GCJhysbfthLahOqPzEG6wQqQgOP6G2rdttNq5GPZD+93//yDlGTP4m9oBQgeMuRhg6yuty+rgYZZbu6x5W+y6o2AaPEj1sNOaInwLhADjChnnbXp9ESKPn358gB+RgeS42ZBDwsOE7ANk7ANk7ANk7ANk7ANk7ANk7ANk7ANk7ANk7ANk7ANk7ANgsvoDW1GGcGuTCauVJvcpeGL/hnuDGQDHXlHLkPFmtjpo14O9o3BwwHHJN0scCDvV+ZVqcZVMICiaZsX4dBjPcAs9hPCuT25D6SbTJc6sEgpgWeSr465Ivaoh6CQYwKyJi1n12EVxjEbA8QVo3UaGBUIBqg8dIEBV8fwjIMYv41ShQkfbF/kn990ga+8jX6gUFYgLicNe6cOl18oa3gsPE9YD3sMg9P9I81gSBCdVsK7aBaA3FW8j5XxjKb3kmJdzNXLbSCgwoR1ZHzchvJk8fc2PQfwrSiT7zmkMKNPhGzAAAAAElFTkSuQmCC)
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHVSURBVHgB7ZrBbcIwFIZ/pz1XdILSDegE0A3oBIUJcIBDb6UDlIQJ6Ah0gjICG5ROUOixVfL6CD1QgZ0YmRgkfxKRlfdI/MuxLfl/AjlQv99AQo/caqBUxAyCRmI4fNFm6YIU9jp8jeESgZBFxOqwApIPVYjvN25WURh6BZHUpgRBBEITJtDFpYgHi12hc+Wfzn5qSE06zwjxKaJorkuhMFzmDPw2wVeLrztHQS2AqAJTCA2S3XFOVh3mKPuiFrAf/NmhhRIxEyDwhDIg8OKBQl+AkQBeDQYoAQq79ygoIMCJ4wW4xgtwjRfgGi/ANV6Aa7wA13gBrvECXOMFuMYLcI0X4BovwDUnL8DoaJGkrOLIMDzcDd5xZPg5oGDOR/FtUHrNvxs+Lm9n9w6AbYMDmbtIya2I4k1Pa8bzZwJxxp4b1WAR+yNAyZ2I4y1DLrvHMW4uYBHLAsSUOzpXRrMYj5BFLAtIlwVyPmARywKCKzs5Bm+EVaiWlSaooivz3HLJgv1JnKTjdUf/s+H874Ny4mtKDWTlb+c1N7zX+8AIQbCesGla571A7vksrPYT1eKgL/aQ3RZn5Dnvh4W9aZ29m1u0QLLX5KyOg3KbKY/aSMTPE13WL20ShkVbnBd0AAAAAElFTkSuQmCC)
 }
 
 .resgister__C-heading[data-v-7e82aefe] {
     min-height: 2.66667rem;
-    background: -webkit-linear-gradient(left,#B1835A 0%,#D9B38C 100%);
-    background: linear-gradient(90deg,#B1835A 0%,#D9B38C 100%)
+    background: -webkit-linear-gradient(left, #6F7381 0%, #A9AAB5 100%);
+    background: linear-gradient(90deg, #ff867a 0%, #ffc3a2 100%)
 }
 
 .resgister__C-heading__title[data-v-7e82aefe] {
@@ -583,7 +586,8 @@
     position: relative;
     margin-top: .74667rem;
     overflow: hidden;
-    padding-inline:.53333rem}
+    padding-inline: .53333rem
+}
 
 .resgister__C-form .tab-content[data-v-7e82aefe] {
     display: none
@@ -602,12 +606,12 @@
     width: 100%;
     height: 100%;
     box-sizing: content-box;
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translateZ(0);
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
     transition-property: transform;
-    transition-property: transform,-webkit-transform;
+    transition-property: transform, -webkit-transform;
     -webkit-transition-duration: 0s;
     transition-duration: 0s
 }

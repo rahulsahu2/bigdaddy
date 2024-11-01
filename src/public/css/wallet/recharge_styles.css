@@ -4363,7 +4363,7 @@ ul {
 .van-button--default {
     border: none;
     color: #fc6c6c;
-    background: -webkit-linear-gradient(top, #02147e 0%, #0390ee 100%);
+    background: linear-gradient(top, #02147e 0%, #0390ee 100%);
     background: linear-gradient(45deg, #02147e 0%, #0390ee 100%);
 }
 

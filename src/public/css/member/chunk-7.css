@@ -226,7 +226,6 @@ ul {
     0% {
         opacity: 0
     }
-
     to {
         opacity: 1
     }
@@ -236,7 +235,6 @@ ul {
     0% {
         opacity: 0
     }
-
     to {
         opacity: 1
     }
@@ -246,7 +244,6 @@ ul {
     0% {
         opacity: 1
     }
-
     to {
         opacity: 0
     }
@@ -256,7 +253,6 @@ ul {
     0% {
         opacity: 1
     }
-
     to {
         opacity: 0
     }
@@ -267,7 +263,6 @@ ul {
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
-
     to {
         -webkit-transform: rotate(1turn);
         transform: rotate(1turn)
@@ -279,7 +274,6 @@ ul {
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
-
     to {
         -webkit-transform: rotate(1turn);
         transform: rotate(1turn)
@@ -3337,12 +3331,10 @@ ul {
         stroke-dasharray: 1, 200;
         stroke-dashoffset: 0
     }
-
     50% {
         stroke-dasharray: 90, 150;
         stroke-dashoffset: -40
     }
-
     to {
         stroke-dasharray: 90, 150;
         stroke-dashoffset: -120
@@ -3354,12 +3346,10 @@ ul {
         stroke-dasharray: 1, 200;
         stroke-dashoffset: 0
     }
-
     50% {
         stroke-dasharray: 90, 150;
         stroke-dashoffset: -40
     }
-
     to {
         stroke-dasharray: 90, 150;
         stroke-dashoffset: -120
@@ -4432,7 +4422,6 @@ ul {
 }
 
 @media(max-width:350px) {
-
     .van-calendar__bottom-info,
     .van-calendar__top-info {
         font-size: .24rem
@@ -6233,11 +6222,9 @@ ul {
     0% {
         opacity: 0
     }
-
     50% {
         opacity: 1
     }
-
     to {
         opacity: 0
     }
@@ -6247,11 +6234,9 @@ ul {
     0% {
         opacity: 0
     }
-
     50% {
         opacity: 1
     }
-
     to {
         opacity: 0
     }

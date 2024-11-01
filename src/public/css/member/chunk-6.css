@@ -1,7 +1,9 @@
 .list[data-v-21f3500a] {
     margin-top: .53333rem;
-    background: #fff;
-    box-shadow: 0 0 .8rem 0 rgba(58, 58, 58, .07)
+    background: #d8d9dd;
+    box-shadow: 0 0 .8rem 0 rgba(58, 58, 58, .07);
+    border-radius: 0.26667rem;
+    margin: 0.4rem 0.4rem
 }
 
 .list .item[data-v-21f3500a] {
@@ -9,8 +11,8 @@
     height: 1.33333rem;
     line-height: 1.33333rem;
     font-size: .4rem;
-    color: #000;
-    border-bottom: .02667rem solid #efeeee
+    color: #020202;
+    border-bottom: .01333rem solid #d8d9dd
 }
 
 .list .item .img[data-v-21f3500a] {
@@ -43,7 +45,7 @@
 }
 
 .mian[data-v-8cd483ca] {
-    background-color: #fbfcfd
+    background-color: #ffffff
 }
 
 .mian.page[data-v-8cd483ca] {
@@ -62,8 +64,7 @@
 .mian .menu-box[data-v-8cd483ca] {
     z-index: 99999;
     width: 100%;
-   
-    background: #fff;
+    background: #fdfdff;
     transition: .4s;
     -webkit-transition: .4s
 }
@@ -84,7 +85,7 @@
 }
 
 .mian .menu-box .infoName[data-v-8cd483ca] {
-    color: #fff;
+    color: #8f5206;
     font-size: .42667rem
 }
 
@@ -115,6 +116,13 @@
     background-color: #ffc511
 }
 
+.mian .menu-box .info[data-v-8cd483ca] {
+    height: 4.2rem;
+    background: -webkit-linear-gradient(left, #C4933F 0%, #FAE59F 100%);
+    background: linear-gradient(90deg, #F79400 0%, #E67401 100%);
+    border-radius: 0 0 0.8rem 0.8rem
+}
+
 .mian .menu-box .info .state-info .txt[data-v-8cd483ca] {
     width: 100%;
     text-align: center;
@@ -134,9 +142,10 @@
 
 .mian .menu-box .total-box[data-v-8cd483ca] {
     margin: -1.46667rem .4rem .4rem;
-    background-color: #fff;
     padding: .4rem .53333rem;
-    border-radius: .4rem;
+    border-radius: 0.26667rem;
+    background-color: #d8d9dd;
+    color: #d9ac4f;
     box-shadow: 0 .21333rem .8rem 0 rgba(211, 13, 13, .07)
 }
 
@@ -168,7 +177,7 @@
 
 .mian .menu-box .total-box .infoItem .infoBtn .item:last-child .li[data-v-8cd483ca] {
     background-color: #f2413b;
-    box-shadow: none
+    box-shadow: 0 0 .26667rem .02667rem rgba(242, 65, 59, .27)
 }
 
 .mian .menu-box .total-box .infoItem .txt[data-v-8cd483ca] {
@@ -194,7 +203,6 @@
     0% {
         -webkit-transform: rotate(0deg)
     }
-
     to {
         -webkit-transform: rotate(180deg)
     }
@@ -275,7 +283,7 @@
 .mian .logout-btn .gradient[data-v-8cd483ca] {
     width: 65%;
     margin: 0 auto;
-    box-shadow: none;
+    /*box-shadow:0 0 .26667rem .02667rem rgba(242,65,59,.27);*/
     border-radius: 1.33333rem
 }
 

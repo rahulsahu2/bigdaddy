@@ -1,7 +1,7 @@
 import connection from "../config/connectDB";
-import jwt from 'jsonwebtoken'
-import md5 from "md5";
-import e from "express";
+// import jwt from 'jsonwebtoken'
+// import md5 from "md5";
+// import e from "express";
 require('dotenv').config();
 
 
@@ -55,6 +55,7 @@ function timerJoin(params = '', addHours = 0) {
 
     return years + '-' + months + '-' + days + ' ' + hours + ':' + minutes + ':' + seconds + ' ' + ampm;
 }
+
 const rosesPlus = async (auth, money) => {
     const [level] = await connection.query('SELECT * FROM level ');
 
@@ -661,6 +662,7 @@ const addWinGo = async (game) => {
         game = ?,
         status = ?,
         time = ?`;
+
         await connection.execute(sql, [Number(period) + 1, 0, join, 0, timeNow]);
 
         if (game == 1) join = 'wingo1';
@@ -675,6 +677,7 @@ const addWinGo = async (game) => {
         }
     }
 }
+
 
 
 const handlingWinGo1P = async (typeid) => {

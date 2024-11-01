@@ -66,10 +66,10 @@
 
 .mian .wallet-box .box .balance[data-v-7b283485] {
     padding: .4rem .4rem 0;
-    background: linear-gradient(135deg,#fe9b0c,#ffcc51);
+    background: linear-gradient(135deg, #fe9b0c, #ffcc51);
     border-radius: .26667rem;
     background-size: 100% 100%;
-    box-shadow: 0 .05333rem .42667rem 0 rgba(253,188,51,.55)
+    box-shadow: 0 .05333rem .42667rem 0 rgba(253, 188, 51, .55)
 }
 
 .mian .wallet-box .box .balance .img[data-v-7b283485] {
@@ -107,7 +107,6 @@
     0% {
         -webkit-transform: rotate(0deg)
     }
-
     to {
         -webkit-transform: rotate(180deg)
     }
@@ -155,17 +154,17 @@
     background-color: #ffce1f;
     height: 1.06667rem;
     line-height: 1.06667rem;
-    box-shadow: 0 0 .26667rem .02667rem rgba(255,206,31,.4)
+    box-shadow: 0 0 .26667rem .02667rem rgba(255, 206, 31, .4)
 }
 
 .mian .wallet-box .total-btn .item:last-child .li[data-v-7b283485] {
     background-color: #f2413b;
-    box-shadow: none
+    box-shadow: 0 0 .26667rem .02667rem rgba(242, 65, 59, .27)
 }
 
 .mian .wallet-box .list[data-v-7b283485] {
     background: #fff;
-    box-shadow: 0 0 .8rem 0 rgba(58,58,58,.07)
+    box-shadow: 0 0 .8rem 0 rgba(58, 58, 58, .07)
 }
 
 .mian .wallet-box .list .item[data-v-7b283485] {
@@ -216,7 +215,7 @@
 
 .mian .wallet-box .card-list .box-shadow[data-v-7b283485] {
     border-radius: 40rpx;
-    box-shadow: .05333rem .53333rem .90667rem -.24rem hsla(0,0%,87.1%,.22)
+    box-shadow: .05333rem .53333rem .90667rem -.24rem hsla(0, 0%, 87.1%, .22)
 }
 
 .mian .wallet-box .card-list .number[data-v-7b283485] {
@@ -225,7 +224,7 @@
 
 .mian .wallet-box .card-list .number .txt[data-v-7b283485] {
     font-size: .4rem;
-    color: hsla(0,0%,100%,.55)
+    color: hsla(0, 0%, 100%, .55)
 }
 
 .mian .wallet-box .card-list .number .num[data-v-7b283485] {

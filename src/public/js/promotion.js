@@ -17,7 +17,7 @@
     <link href="/css/promotion/chunk-0_4.css" rel="stylesheet" />
     <link href="/css/promotion/chunk-0_5.css" rel="stylesheet" />
     <link href="/css/promotion/chunk-0_6.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="/images/bitbug_favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/index_files/Images/logo_500.png" type="image/x-icon">
     <style>
         html,
         body {

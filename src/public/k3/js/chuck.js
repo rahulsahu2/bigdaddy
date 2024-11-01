@@ -9,13 +9,12 @@ socket.on("data-server-k3", function (msg) {
          let Result = msg.data[1]
          let check = $("#number_result").attr("data-select")
          if (check == "all") {
-            handleMyEmerdList(Result.period)
             reload_money()
             callListOrder()
             RenderResult(Result.result)
          } else {
-            handleMyEmerdList(Result.period)
             reload_money()
+            callAjaxMeJoin()
             RenderResult(Result.result)
          }
          $("#period").text(notResult.period)
@@ -28,55 +27,6 @@ socket.on("data-server-k3", function (msg) {
       }
    }
 })
-
-function handleMyEmerdList(resultPeriod) {
-   $.ajax({
-      type: "POST",
-      url: "/api/webapi/k3/GetMyEmerdList",
-      data: {
-         gameJoin: $("html").attr("data-dpr"),
-         pageno: "0",
-         pageto: "10",
-      },
-      dataType: "json",
-      success: function (response) {
-         let data = response.data.gameslist
-         $("#number_result").text("1/" + response.page)
-         GetMyEmerdList(data)
-         $(".Loading").fadeOut(0)
-
-         let firstGame = data[0]
-
-         const displayResultHandler = ({ status, amount }) => {
-            let modal = document.getElementById("result_modal")
-            let modalAmount = document.getElementById("modal_amount")
-
-            modal.classList.add("open")
-            if (status?.toLowerCase() === "win") {
-               modal.classList.add("win")
-               modalAmount.innerText = `+${amount}`
-            } else {
-               modal.classList.add("loss")
-               modalAmount.innerText = `-${amount}`
-            }
-         }
-
-         if (firstGame && String(firstGame.stage) === String(resultPeriod)) {
-            if (firstGame.get == 0) {
-               displayResultHandler({
-                  status: "loss",
-                  amount: firstGame.money,
-               })
-            } else {
-               displayResultHandler({
-                  status: "win",
-                  amount: firstGame.get,
-               })
-            }
-         }
-      },
-   })
-}
 
 function ShowListOrder(list_orders) {
    if (list_orders.length == 0) {

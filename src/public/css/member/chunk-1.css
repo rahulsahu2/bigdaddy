@@ -13,7 +13,8 @@
     margin-bottom: .53333rem
 }
 
-.mian .profile .item .img .userImg[data-v-9f3a9836],.mian .profile .item .img[data-v-9f3a9836] {
+.mian .profile .item .img .userImg[data-v-9f3a9836],
+.mian .profile .item .img[data-v-9f3a9836] {
     height: 1.06667rem;
     width: 1.06667rem;
     border-radius: 1.06667rem

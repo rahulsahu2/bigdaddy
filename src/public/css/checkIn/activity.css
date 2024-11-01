@@ -418,8 +418,8 @@
     font-size: .32rem;
     font-style: normal;
     min-height: 2rem;
-    background: -webkit-linear-gradient(left,#FB5C5B 0%,#FF988C 100%);
-    background: linear-gradient(90deg,#FF9901 0%,#E67301 100%);
+    
+    background: linear-gradient(90deg, rgb(249, 89, 89) 0%, rgb(255, 154, 142) 100%);
     padding: .32rem;
     display: -webkit-box;
     display: -webkit-flex;
